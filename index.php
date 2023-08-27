@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="assets/bootstrap-grid.min.css" </head>
 
 <body>
-<center>
+    <center>
 
-    <h1>LifeCheck</h1>
-    <h2>Prüfe Switches auf End-of-Life</h2>
+        <h1>LifeCheck</h1>
+        <h2>Prüfe Switches auf End-of-Life</h2>
 
-</center>
+    </center>
 
     <div class="container">
         <div class="row">
@@ -22,16 +22,10 @@
                 <div class="box box-color-second">
                     <b>Wähle deinen Hersteller:</b>
                     <br>
-                    <select class="select-brands" id="brands">
-                        <option value="---">Hewlett Packard</option>
-                        <option value="---">Aruba</option>
-
-                    </select>
-
-                    <button type="submit">Suchen</button>
+                    <?php include('frontend/get-selected-item.php'); ?>
                 </div>
 
-<br>
+                <br>
                 <div class="box box-color-fourth">
                     <b class="github-claim">
                         <p>Hilf mir die Liste aktuell zu halten, besuche mich auf Gihub
@@ -54,18 +48,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="box box-color-third">
-                    <table>
-                        <tr>
-                            <td>HP</td>
-                            <td>1600 ProLiant 1600 </td>
-                            <td>31.05.2021</td>
-                            <td>-</td>
-                            <td>hp.de</td>
-
-                        </tr>
-                    </table>
-                </div>
+<?php include('frontend/search.php')?>
             </div>
         </div>
 
