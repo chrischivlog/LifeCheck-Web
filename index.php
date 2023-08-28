@@ -30,7 +30,7 @@
                     <b class="github-claim">
                         <p>Hilf mir die Liste aktuell zu halten, besuche mich auf Gihub
                             <br><br>
-                            <center><img src="assets/img/github-mark-white.svg" width="50px"></center>
+                            <center><a href="https://github.com/chrischivlog/LifeCkeck-Data"><img src="assets/img/github-mark-white.svg" width="50px"></center></a>
                         </p>
                     </b>
                 </div>
@@ -42,8 +42,8 @@
                         <tr>
                             <th>Hersteller</th>
                             <th>Modell</th>
-                            <th>Support bis</th>
-                            <th>Ersatz</th>
+                            <th>End of Life</th>
+                            <th></th>
                             <th>Webseite</th>
                         </tr>
                     </table>

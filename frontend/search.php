@@ -15,11 +15,11 @@ if (isset($_GET['brands'])) {
 ?>
         <div class="box box-color-third">
 <table>
-                <td><?php echo $item['brand'];?></td>
+                <td><?php echo $brandName;?></td>
                 <td><?php echo $item['model'];?></td>
                 <td><?php echo $item['date'];?></td>
-                <td><?php echo $item['replacement'];?></td>
-                <td><?php echo $item['link-to-manifactur'];?></td>
+                <td></td>
+                <td><a style="color: #fff;" href="<?php echo $item['link-to-manifactur'];?>" >Link</a></td>
                 </table>
 
         </div>

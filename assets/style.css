@@ -9,7 +9,9 @@
 
 }
 
-
+prm_color {
+	color: --prim-font-color;
+}
 
 body {
 	background: var(--first-color);
@@ -43,10 +45,13 @@ table {
 
 th {
 	padding: 30px;
+	text-align: left;
+
 }
 
 td {
 	padding: 30px;
+	text-align: right;
 }
 
 select{
