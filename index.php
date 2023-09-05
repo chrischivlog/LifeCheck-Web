@@ -51,7 +51,8 @@
 <?php include('frontend/search.php')?>
             </div>
         </div>
-
+        <br>
+<center>Made with ❤️ by chrischivlog</center>
 </body>
 
 </html>

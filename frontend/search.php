@@ -19,7 +19,7 @@ if (isset($_GET['brands'])) {
                 <td><?php echo $item['model'];?></td>
                 <td><?php echo $item['date'];?></td>
                 <td></td>
-                <td><a style="color: #fff;" href="<?php echo $item['link-to-manifactur'];?>" >Link</a></td>
+                <td><a style="color: #fff;" target="_blank" href="<?php echo $item['link-to-manifactur'];?>" >Link</a></td>
                 </table>
 
         </div>
