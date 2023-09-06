@@ -45,13 +45,12 @@ table {
 
 th {
 	padding: 30px;
-	text-align: left;
-
 }
 
 td {
 	padding: 30px;
-	text-align: right;
+	background-color: #38598ba5;
+	text-align: left;
 }
 
 select{

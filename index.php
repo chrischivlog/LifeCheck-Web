@@ -42,13 +42,12 @@
                         <tr>
                             <th>Hersteller</th>
                             <th>Modell</th>
-                            <th>End of Life</th>
-                            <th></th>
-                            <th>Webseite</th>
+                            <th>End of (Support) Life</th>
                         </tr>
+                        <?php include('frontend/search.php')?>
+
                     </table>
                 </div>
-<?php include('frontend/search.php')?>
             </div>
         </div>
         <br>

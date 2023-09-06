@@ -13,17 +13,11 @@ if (isset($_GET['brands'])) {
 
     foreach ($filteredItems as $item) {
 ?>
-        <div class="box box-color-third">
-<table>
+  <tr>
                 <td><?php echo $brandName;?></td>
-                <td><?php echo $item['model'];?></td>
+                <td><a style="color: #fff;" target="_blank" href="<?php echo $item['link-to-manifactur'];?>" ><?php echo $item['model'];?></a></td>
                 <td><?php echo $item['date'];?></td>
-                <td></td>
-                <td><a style="color: #fff;" target="_blank" href="<?php echo $item['link-to-manifactur'];?>" >Link</a></td>
-                </table>
-
-        </div>
-
+  </tr>
 <?php
 
     }
