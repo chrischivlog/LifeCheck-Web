@@ -5,7 +5,6 @@ if (isset($_GET['brands'])) {
 
     $brandID = $_GET['brands'];
 }
-
 ?>
 
 <form action="" method="GET">

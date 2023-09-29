@@ -1,9 +1,13 @@
 <?php
 
+$data = json_decode(file_get_contents('./actions/api-key.json'), true);
+
+
+
 //// only function not working stand alone!https://api.github.com/repos/chrischivlog/LifeCkeck-Data/contents/EOL-switches.json
 $headers = array(
     "Accept: application/vnd.github.v4.raw",
-    "Authorization: Bearer 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",
+    "Authorization: Bearer". $data[0]['api-key'],
     "X-GitHub-Api-Version: 2022-11-28",
     "User-Agent: LifeCheck"
 );
