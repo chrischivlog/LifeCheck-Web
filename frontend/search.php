@@ -1,13 +1,15 @@
 <?php
-include('./actions/get-model.php');
+
+
+$apiRequest = new apiConnection();
+$apiRequest->getModel();
 
 if (isset($_GET['brands'])) {
-    $_GET['brands'];
 
 
     $brandToSearch = $_GET['brands']; // Change this to the brand you want to search for
 
-    $filteredItems = array_filter($data, function ($item) use ($brandToSearch) {
+    $filteredItems = array_filter($apiRequest->getModel, function ($item) use ($brandToSearch) {
         return isset($item['brand']) && $item['brand'] === $brandToSearch;
     });
 

@@ -1,5 +1,7 @@
 <?php
-include('./actions/get-brand.php');
+
+$apiRequest = new apiConnection();
+$apiRequest->getBrand();
 
 if (isset($_GET['brands'])) {
 
@@ -7,11 +9,11 @@ if (isset($_GET['brands'])) {
 }
 ?>
 
-<form action="" method="GET">
+<form method="GET">
 
     <select class="select-brands" id="brands" name="brands" required>
 
-        <?php foreach ($data as $key => $value) {
+        <?php foreach ($apiRequest->getBrand as $key => $value) {
             echo '' . $key . ' ' . $value;
 
             if ($key == $brandID) { //// compare $brandID with key if equals the set defualt select

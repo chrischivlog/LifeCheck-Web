@@ -1,3 +1,5 @@
+<?php include('./actions/api.php');?>
+
 <!DOCTYPE html>
 <html lang="de">
 
