@@ -27,7 +27,7 @@ Die Netzwerk Switch EOL Informationsdienst-Webanwendung bietet Netzwerk-Admins e
 
 Die ausführliche Dokumentation, die mit dieser Webanwendung bereitgestellt wird, hilft Netzwerk-Admins, das volle Potenzial der Anwendung auszuschöpfen. Die Anwendung wurde unter Verwendung von PHP 8 entwickelt und nutzt REST API für den Datenaustausch.
 
-[Dokumentation anzeigen](https://docs.netzwerk-switch-eol-informationsdienst.com)
+[Dokumentation anzeigen](https://docs.eol.6mates.eu)
 
 ### Beitragen
 
@@ -41,24 +41,7 @@ Wir freuen uns über Beiträge von Netzwerk-Experten! Falls Sie zur Weiterentwic
 
 ### Lizenz
 
-Dieses Projekt ist unter der [MIT-Lizenz](LIZENZ.md) lizenziert. Weitere Informationen finden Sie in der Datei LICENSE.
+Dieses Projekt ist unter der [GPL-Lizenz](LICENSE) lizenziert. Weitere Informationen finden Sie in der Datei LICENSE.
 
-### Kontakt
-
-Bei Fragen oder Anregungen können Sie uns unter [support@netzwerk-switch-eol-informationsdienst.com](mailto:support@netzwerk-switch-eol-informationsdienst.com) erreichen.
-
-### Autoren
-
-- Max Mustermann
-- Maria Musterfrau
-
-### Unterstützung
-
-Besuchen Sie unser [Support-Portal](https://support.netzwerk-switch-eol-informationsdienst.com) für weitere Unterstützung.
-
-### Häufig gestellte Fragen (FAQ)
-
-- **Frage:** Wie oft werden die Daten aktualisiert?
-  - **Antwort:** Die Daten werden alle 24 Stunden aktualisiert, um die Genauigkeit zu gewährleisten.
 
 
