@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/bootstrap-grid.min.css" 
 </head>
@@ -27,9 +27,9 @@
                 </div>
 
                 <br>
-                <div class="box box-color-fourth">
+                <div class="box box-color-third">
                     <b class="github-claim">
-                        <p>Hilf mir die Liste aktuell zu halten, besuche mich auf Gihub
+                        <p>Hilf mir die Liste aktuell zu halten, besuche mich auf Github
                             <br><br>
                             <center><a href="https://github.com/chrischivlog/LifeCkeck-Data"><img src="assets/img/github-mark-white.svg" width="50px"></center></a>
                         </p>
@@ -39,12 +39,7 @@
 
             <div class="col-sm">
                 <div class="box box-color-fourth">
-                    <table>
-                        <tr>
-                            <th>Hersteller</th>
-                            <th>Modell</th>
-                            <th>End of (Support) Life</th>
-                        </tr>
+
                         <?php printmodels();?>
 
                     </table>
