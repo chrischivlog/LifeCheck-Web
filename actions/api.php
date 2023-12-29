@@ -19,7 +19,7 @@ class apiConnection
         );
 
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, "https://api.github.com/repos/chrischivlog/LifeCkeck-Data/contents/EOL-switches.json");
+        curl_setopt($curl, CURLOPT_URL, "http://127.0.0.1/LifeCkeck-Data/EOL-switches.json");
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         $result = curl_exec($curl);
@@ -42,7 +42,7 @@ class apiConnection
         );
 
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, "https://api.github.com/repos/chrischivlog/LifeCkeck-Data/contents/EOL-brands.json");
+        curl_setopt($curl, CURLOPT_URL, "http://127.0.0.1/LifeCkeck-Data/EOL-brands.json");
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         $result = curl_exec($curl);

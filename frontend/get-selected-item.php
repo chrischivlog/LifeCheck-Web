@@ -1,33 +1,33 @@
 <?php
 
-$apiRequest = new apiConnection();
-$apiRequest->getBrand();
+function getItem()
+{
 
-if (isset($_GET['brands'])) {
-
-    $brandID = $_GET['brands'];
-}
+    $apiRequest = new apiConnection();
+    $apiRequest->getBrand();
 ?>
 
-<form method="GET">
+    <form method="GET">
+        <select class="select-brands" id="brands" name="brands" required>
 
-    <select class="select-brands" id="brands" name="brands" required>
+            <?php foreach ($apiRequest->getBrand as $key => $value) {
+                $brandmngr = new BrandManager;
+                $brandmngr->GetBrandByID($_GET['brands']);
 
-        <?php foreach ($apiRequest->getBrand as $key => $value) {
-            echo '' . $key . ' ' . $value;
+                if ($key == $brandmngr->brandID) { //// compare $brandID with key if equals the set defualt select
 
-            if ($key == $brandID) { //// compare $brandID with key if equals the set defualt select
-                
-                $brandName = $value;
+                    $brandName = $value;
 
-                ?><option value="<?php echo $key; ?>" selected="selected"><?php echo $value; ?></option><?php
-            } else {
-                ?><option value="<?php echo $key; ?>"><?php echo $value; ?></option><?php
-            }
-        } ?>
+                    ?><option value="<?php echo $key; ?>" selected="selected"><?php echo $value; ?></option><?php
+                } else {
+                    ?><option value="<?php echo $key; ?>"><?php echo $value; ?></option><?php
+                }
+            } ?>
 
+        </select>
 
-    </select>
+        <button type="submit">Suchen</button>
+    </form>
 
-    <button type="submit">Suchen</button>
-</form>
+<?php }
+?>
