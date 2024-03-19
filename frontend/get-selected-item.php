@@ -26,7 +26,7 @@ function getItem()
 
         </select>
 
-        <button type="submit">Suchen</button>
+        <button type="submit">Search</button>
     </form>
 
 <?php }

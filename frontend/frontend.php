@@ -13,7 +13,7 @@
     <center>
 
         <h1>LifeCheck</h1>
-        <h2>Prüfe Switches auf End-of-Life</h2>
+        <h2>Check switches end of life</h2>
 
     </center>
 
@@ -21,11 +21,12 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="box box-color-second">
-                    <b>Wähle deinen Hersteller:</b>
+                    <b>Select a brand:</b>
                     <br>
                     <?php getItem(); ?>
                 </div>
 
+                <br><?php mail_modal();?>
                 <br>
                 <div class="box box-color-third">
                     <b class="github-claim">
@@ -34,8 +35,10 @@
                             <center><a href="https://github.com/chrischivlog/LifeCkeck-Data"><img src="assets/img/github-mark-white.svg" width="50px"></center></a>
                         </p>
                     </b>
-                </div>
+                </div>            
+
             </div>
+
 
             <div class="col-sm">
                 <div class="box box-color-fourth">
@@ -47,6 +50,7 @@
             </div>
         </div>
         <br>
+
 <center>Made with ❤️ by chrischivlog</center>
 </body>
 
