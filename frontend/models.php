@@ -22,8 +22,8 @@ function printmodels()
 <div style="overflow-x:auto;">
         <table>
             <tr>
-                <th>Hersteller</th>
-                <th>Modell</th>
+                <th>Brand</th>
+                <th>Model</th>
                 <th>End of (Support) Life</th>
             </tr>
             <?php
@@ -41,7 +41,7 @@ function printmodels()
 </div>
 <?php
     } else {
-        echo "<tr><td><h3 style='color: #fff;'>Wähle einen Hersteller im Drowpdown-Menü!</h3></td></tr>";
+        echo "<tr><td><h3 style='color: #fff;'> Select a Brand in dropdown. 👍</h3></td></tr>";
     }
 }
 ?>
